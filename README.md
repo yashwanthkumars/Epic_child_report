@@ -1,12 +1,8 @@
-## Epic childissue_report — Forge app
+# Forge Hello World
 
-This repository contains a Forge app (UI Kit + resolver) that provides a custom Jira issue activity UI. The frontend UI lives under `static/hello-world` and the backend/resolver code is in `src/`.
+This project contains a Forge app written in Javascript that displays `Hello World!` in a Jira issue activity. 
 
-See the Forge docs for full platform information: https://developer.atlassian.com/platform/forge/
-
-## What this README adds
-
-This README expands the basic quick-start with explicit, copy/paste PowerShell commands for a Windows developer. It covers: prerequisites, installing dependencies, local development (with tunnel), building the frontend, deploying, and installing the app into a site.
+See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
 
 ## Prerequisites
 
