@@ -1,0 +1,25 @@
+modules:
+  jira:issueActivity:
+    - key: epic-childissue-report-hello-world-panel
+      resource: main
+      resolver:
+        function: resolver
+      viewportSize: medium
+      title: Epic_childissue_report
+      label: Epic Child Issue Report
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+
+permissions:
+  scopes:
+    - read:jira-work
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/37455406-8a9d-4e1e-87f4-818cad998ef2
