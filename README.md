@@ -1,8 +1,12 @@
-# Forge Hello World
+# Forge Epic child-issue reporting UI for Jira
 
 This project contains a Forge app written in Javascript that displays `Hello World!` in a Jira issue activity. 
 
 See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
+
+## What this plugin does (short)
+
+This Forge app provides an Epic child-issue reporting UI for Jira. When installed it adds a custom issue activity panel that helps teams view and track child issues of an Epic: it lists children, surfaces key fields such as status, assignee, and story points, and provides quick links and a compact progress snapshot for easier reporting and triage.
 
 ## Prerequisites
 
